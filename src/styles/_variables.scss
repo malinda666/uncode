@@ -1,0 +1,23 @@
+:root {
+  // font sizes
+  --size1: clamp(5rem, 10vw, 15rem);
+  --size2: clamp(3rem, 6vw, 10rem);
+  --size3: clamp(1rem, 4vw, 8rem);
+  --size4: clamp(1rem, 2vw, 8rem);
+  --size5: clamp(0.5rem, 1vw, 3rem);
+  --size6: clamp(0.5rem, 0.5vw, 3rem);
+
+  // font families
+  --font-bold: "Geist Semi";
+  --font-reg: "Overused Grotesk Medium";
+  --font-semi: "Geist Medium";
+
+  // colors
+  --light: rgba(237, 237, 237, 1);
+  --dark: rgba(35, 35, 35, 1);
+  --light-2: rgba(153, 153, 153, 1);
+
+  // misc
+  --transition: 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  --container-width: 60vw;
+}

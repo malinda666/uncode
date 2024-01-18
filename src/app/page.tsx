@@ -1,3 +1,9 @@
+import HeroView from "@/views/Hero";
+
 export default function Home() {
-  return <div style={{ height: "200vh" }}>hello world</div>;
+  return (
+    <>
+      <HeroView />
+    </>
+  );
 }

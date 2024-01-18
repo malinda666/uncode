@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+  line-height: 1;
+  display: grid;
+  --_offset: calc(var(--width) / var(--splits));
+  grid-template-columns: repeat(var(--splits), var(--_offset));
+  line-height: 0.85;
+  .text_box {
+    overflow: hidden;
+    will-change: transform, opacity;
+    // opacity: 0;
+
+    &__inner {
+      width: max-content;
+      position: relative;
+      display: block;
+      will-change: transform;
+    }
+  }
+}
