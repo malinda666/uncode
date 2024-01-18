@@ -1,3 +1,4 @@
+import Lenify from "@/components/layout/Lenify";
 import "@/styles/globals.scss";
 
 import { Inter } from "next/font/google";
@@ -19,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Lenify>
+        <body className={inter.className}>{children}</body>
+      </Lenify>
     </html>
   );
 }
